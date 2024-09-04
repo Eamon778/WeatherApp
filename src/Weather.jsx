@@ -4,7 +4,7 @@ function Weather() {
     const {data, isLoading, isError, error} = FetchData();
     return(
         <div>
-            console.log(data)
+            {console.log(data)}
         </div>
     )
 }
