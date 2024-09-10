@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 function FetchData(city) {
-  const apiKey = '0002d5a55453440d419c1a6cdb8a3cda';
+  const apiKey = '0002d5a55453440d419c1a6cdb8a3cda';  // Access environment variable
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
   
   const fetchApi = async () => {
